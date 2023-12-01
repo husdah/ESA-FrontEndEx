@@ -1,0 +1,36 @@
+body{
+    background: blue;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    box-shadow: 6px 6px 10px #a1a1a1aa !important;
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+li.bgRed{
+    background: red !important;
+    color: white !important;
+}
+
+li:hover span{
+    text-shadow: 3px 3px 4px black;
+}
+
+.boxShadow{
+    box-shadow: 6px 6px 10px #a1a1a1aa !important;
+}
+
+.boxShadow:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.searchInput:focus{
+    width: 100% !important;
+    transition: .3s;
+}
